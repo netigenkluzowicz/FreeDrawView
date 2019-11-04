@@ -27,7 +27,6 @@ class HistoryPath : Parcelable, Serializable {
             if (field == null) {
                 generatePath()
             }
-
             return field
         }
 
@@ -37,7 +36,6 @@ class HistoryPath : Parcelable, Serializable {
             if (field == null) {
                 generatePaint()
             }
-
             return field
         }
 
